@@ -1,0 +1,151 @@
+.navbar {
+  background: #F4F4F4;
+}
+
+.navbar img{
+  border-radius: 15px;
+}
+
+.search-bar {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 150px;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  border: solid 1px #dcdcdc;
+  border-right: none;
+  border-radius: 6px;
+  border-top-right-radius: initial;
+  border-bottom-right-radius: initial;
+}
+
+.search-bar button {
+  padding: 6px;
+  background-color: white;
+  color: black;
+  border: solid 1px #dcdcdc;
+  cursor: pointer;
+  border-left: none;
+  border-top-left-radius: initial;
+  border-bottom-left-radius: initial;
+}
+
+.search-bar button i {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#btnCompra {
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+#columnder {
+  background-color: white;
+}
+
+.list-group-item a:hover {
+  color: var(--bs-link-color);
+}
+
+#customAlert {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  width: 90%; /* Responsive width */
+  max-width: 600px; /* Maximum width */
+}
+
+#customAlert button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em; /* Accessible font size */
+}
+
+#customAlert:focus-within {
+  outline: 2px solid blue; /* Focus outline for accessibility */
+}
+
+/* Ensure text is readable and accessible */
+#customAlert h2, #customAlert p {
+  color: #333; /* High contrast text color */
+  line-height: 1.5; /* Improved readability */
+}
+
+.card h1 {
+  font-size: 2em; /* Tamaño de fuente más grande para destacar */
+  font-family: 'Georgia', serif; /* Fuente elegante */
+  color: #222; /* Color del texto */
+  margin-bottom: 15px; /* Espaciado inferior para separación */
+  border-bottom: 2px solid #ccc; /* Línea inferior para énfasis */
+  padding-bottom: 5px; /* Espaciado interno inferior */
+}
+
+.card h2 {
+  font-size: 1.2em; /* Ajuste del tamaño de la fuente */
+  font-family: 'Arial', sans-serif; /* Fuente más elegante */
+  color: #333; /* Color del texto */
+  background-color: #f9f9f9; /* Color de fondo suave */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  margin-bottom: 15px; /* Espaciado inferior */
+}
+
+.card h3 {
+  font-size: 0.9em; /* Tamaño de fuente */
+  font-family: 'Verdana', sans-serif; /* Fuente clara y legible */
+  color: #444; /* Color del texto */
+  margin-top: 5px; /* Espaciado superior */
+  margin-bottom: 5px; /* Espaciado inferior */
+  padding: 5px; /* Espaciado interno */
+  border-left: 4px solid #ccc; /* Línea lateral para énfasis */
+  background-color: #f0f0f0; /* Fondo suave */
+  border-radius: 3px; /* Bordes redondeados */
+  display: flex; /* Usar flexbox para alinear con la imagen */
+  align-items: center; /* Alinear verticalmente */
+}
+
+.card button {
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+  font-size: 1.2em; /* Tamaño de fuente */
+}
+
+#_footer {
+  background: #002855;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#_footer ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#_footer a {
+  color: #ffffff;
+}

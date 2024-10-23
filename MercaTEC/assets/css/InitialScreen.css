@@ -1,0 +1,41 @@
+#indexScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/Feria.jpeg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#indexScreen h1 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: white;
+  font-size: 120px;
+}
+
+#indexScreen h2 {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#indexScreen p {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+#indexScreen button {
+  font-weight: bold;
+  color: white;
+  background-color: var(--bs-tertiary-color);
+  border-color: #ffffff;
+  margin-inline: 12px;
+  text-align: center;
+  font-size: larger;
+}
+
